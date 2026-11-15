@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Bottom Layer Polyline -->
+    <path
+        android:strokeColor="#6366F1"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 14,41 L 32,50 L 50,41" />
+
+    <!-- Middle Layer Polyline -->
+    <path
+        android:strokeColor="#06B6D4"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 14,31 L 32,40 L 50,31" />
+
+    <!-- Top Rhombus -->
+    <path
+        android:fillColor="#4038BDF8"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 32,12 L 50,21 L 32,30 L 14,21 Z" />
+
+    <!-- Tech Core Accent Dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 32,21 m -2.5, 0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0" />
+</vector>
+
